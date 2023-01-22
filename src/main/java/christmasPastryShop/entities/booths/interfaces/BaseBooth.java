@@ -17,11 +17,11 @@ public abstract class BaseBooth implements Booth{
     private int boothNumber;
     private int capacity;
     private int numberOfPeople;
-    private int pricePerPerson;
+    private double pricePerPerson;
     private boolean isReserved = false;
     private double price;
 
-    public BaseBooth(int boothNumber, int capacity, int pricePerPerson) {
+    public BaseBooth(int boothNumber, int capacity, double pricePerPerson) {
         this.boothNumber = boothNumber;
         this.setCapacity(capacity);
         this.pricePerPerson = pricePerPerson;
